@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    background: black;
+}
+.musicplayer {
+  /* border: 1px solid black; */
+    height: 30vw;
+  margin-bottom: 1vw;
+    padding: 1vw;
+    background-color: rgb(0, 255, 174);
+}
+
+.infosec {
+    /* border: 1px solid black;
+    box-sizing: border-box; */
+    height: 10vw;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.barsec {
+    /* border: 1px solid black;
+    box-sizing: border-box; */
+    height: 10vw;
+    width: 100%;
+    
+}
+.controlsec {
+    /* border: 1px solid black;
+    box-sizing: border-box; */
+    height: 10vw;
+    width: 100%;
+}
+.logoofmusic {
+    /* border: 1px solid black;
+    box-sizing: border-box; */
+    height: 10vw;
+    width: 10vw;
+}
+.nameofmusic {
+    /* border: 1px solid black;
+    box-sizing: border-box; */
+    height: 10vw;
+    width: 90vw;
+    font-size: 5vw;
+}
+.controlsec {
+    display: flex;
+}
+.buttons {
+
+    /* border: 1px solid black;
+    box-sizing: border-box; */
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoss {
+    height: 100%;
+}
+
+.rotateimg {
+    transform: rotate(180deg);
+}
+.nameofmusic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.header {
+    height: 30vw;
+    background-color: rgb(2, 16, 11);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 7vw;
+}
+
+.allmusics {
+    height: 10vw;
+    background: white;
+    box-sizing: border-box;
+    border: 1vw solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vw;
+}
